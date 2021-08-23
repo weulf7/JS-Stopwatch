@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding: 40px 60px;
+  background-color: #f4a261;
+}
+.btn-div {
+  margin: 20px 0;
+}
+.btn {
+  padding: 20px 50px;
+  border: 1px solid white;
+  border-radius: 0.7rem;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
+}
+.btn:hover {
+  background-color: white;
+  color: #f4a261;
+}
+h1 {
+  padding: 10px 0;
+}
+.stopwatch-div {
+  padding: 20px 0;
+}
+span {
+  font-size: 3rem;
+}
