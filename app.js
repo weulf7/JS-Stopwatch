@@ -32,6 +32,7 @@ function startStopWatch() {
   t = setInterval(stopwatch, 20);
 }
 startButton.addEventListener("click", function () {
+  clearInterval(t);
   startStopWatch();
 });
 
