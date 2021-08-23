@@ -29,7 +29,7 @@ function stopwatch() {
   }
 }
 function startStopWatch() {
-  t = setInterval(stopwatch, 100);
+  t = setInterval(stopwatch, 20);
 }
 startButton.addEventListener("click", function () {
   startStopWatch();
